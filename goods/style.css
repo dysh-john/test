@@ -1,0 +1,39 @@
+*{
+    background-color: rgb(144, 0, 0);
+    color: black;
+}
+
+.home-btn{
+    color: rgb(0, 0, 135);
+}
+
+.main{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.main h1{
+    font-size: 50px;
+    margin-bottom: 0;
+    letter-spacing: 20px;
+}
+
+.main .prc{
+    margin-top: 0;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.main .desc{
+    font-size: 30px;
+    margin: 0;
+    letter-spacing: 4px;
+}
+
+.main .buy-btn{
+    margin-top: 70px;
+    padding: 20px 100px;
+    background-color: black;
+    color: red;
+    font-size: 25px;
+}

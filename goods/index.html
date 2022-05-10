@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOX-A</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Back to home -->
+    <a class="home-btn" href="../index.html"><h2 class="home-btn">HOME <</h2></a>
+
+    <div class="main">
+
+        <h1 class="name">BOX-A</h1>
+        <img src="../imgs/test.png" alt="">
+        <h2 class="prc">PRICE: 0.02 BTC</h2>
+        <p class="desc">This is most funny mystery box</p>
+        <p class="desc">in the world.</p>
+
+        <form action="https://www.coinpayments.net/index.php" method="post">
+            <input type="hidden" name="cmd" value="_pay_simple">
+            <input type="hidden" name="reset" value="1">
+            <input type="hidden" name="merchant" value="c379f49d14c1a3dc646c542011f9fee1">
+            <input type="hidden" name="item_name" value="mysterybox">
+            <input type="hidden" name="currency" value="USD">
+            <input type="hidden" name="amountf" value="20.00000000">
+            <input type="hidden" name="want_shipping" value="1">
+            <input type="hidden" name="success_url" value="../thanks.html">
+            <input type="hidden" name="cancel_url" value=".">
+            <button class="buy-btn">BUY</button>
+        </form>
+    </div>
+
+</body>
+</html>
