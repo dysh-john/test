@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(144, 0, 0);
+    color: black;
+    font-size: 50px;
+}
+
+.main{
+    text-align: center;
+    height: 10em;
+    position: relative;
+}
+
+
+.main{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.home-btn{
+    margin-top: 70px;
+    font-size: 25px;
+    background-color: black;
+    color: red;
+    padding: 10px 50px;
+}
